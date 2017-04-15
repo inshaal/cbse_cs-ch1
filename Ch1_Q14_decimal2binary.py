@@ -34,3 +34,4 @@ if f==0:
    rf='0'
 
 p=ri+"."+rf
+print p
