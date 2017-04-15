@@ -18,9 +18,9 @@ while qi<>0:
 
 #now comes the fraction part
 
-f=qf=int(l[1])#fraction part
+f=int(l[1])#fraction part
 rf=''
-frac=qf/10.0**len(l[1])
+frac=a%1 #value of decimal part as float
 
 while frac<>1:
    frac=(frac%1)*2
