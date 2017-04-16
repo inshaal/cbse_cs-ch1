@@ -1,5 +1,27 @@
-#made by Gm Harshvardhan
 #To input username&pass and check if it's correct. Q22
+#Made by INS, Using dictionary for faster credential check.
+d={}
+while True:
+    x=raw_input("Enter a user name : ")
+    y=raw_input("Enter a password : ")
+    d[x]=y
+    cont=raw_input("Do you want to add more usernames? [y/n] ")
+    if cont=='y':
+        continue
+    else:
+        break
+#begining login system
+a=raw_input("Enter username to log in : ")
+if d.has_key(a)==True:
+    print "User found. Enter password to continue. "
+    b=raw_input("Enter password to log in : ")
+    if d.get(a)==b:
+        print "Welcome back ",a
+    else:
+        print "Wrong password. Aborting program."
+
+#Made by Gm Harshvardhan, using LISTS
+""" #Remove this quotation marks to use GM's program.
 u=[]
 p=[]
 count=input("Enter number of usernames you want to save : ")
@@ -22,4 +44,4 @@ def passcheck():
             print "Password doesn't match. "
     else:
         print "Username doesn't exist"
-passcheck()
+passcheck()"""
