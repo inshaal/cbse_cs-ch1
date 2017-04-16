@@ -2,7 +2,7 @@
 #You should be aware of the method of conversion of decimal to binary to be able to understand this code with accuracy
 #This will take decimal as input and give binary output in string form
 
-a=float(input(">_>"))
+a=float(input("Enter decimal value"))
 e=str(a)
 l=e.split(".") #creates a list that contains integer part as 0th index and fraction part as 1st index
 #solving for integer part
