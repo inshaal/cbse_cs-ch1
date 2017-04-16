@@ -1,4 +1,4 @@
-## Solutions for Q1 to Q9 [Page 24-26]
+## [CBSE] Solutions for Chapter 1 (Back Exercise) Q1 to Q9 [Page 24-26]
  
 ### Q1 Write the output from the following code:
     
@@ -48,4 +48,18 @@
 
 ### Q8 Find the errors from the following code : 
 
-* Ans) Posting this in a while.
+* a) ``` Error: name 'a' is not defined. ```
+
+* b) ``` Invalid Syntax ``` (for i in <b>range</b> is to be used.
+
+* c) ``` Invalid Syntax ``` Indentation issue.
+
+* d) ``` Invalid Syntax ``` Indentation issue & wrong placement of ":"
+
+### Q9 Find the output from the following code : 
+
+* ```print L1``` will print ``` [300, 400] ```
+
+* ```print L2``` will print ``` [200, 300, 400, 500] ```
+
+* ```print L2``` (after ```L2.extend(L1)``` code) will print ``` [200, 300, 400, 500, 300, 400] ```
