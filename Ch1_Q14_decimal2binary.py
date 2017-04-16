@@ -26,7 +26,7 @@ if int(l[1])<>0:
         fp+=str(x)
 else:
     fp=""
-#if integer or fraction parts are 0, then a 0 will be there instead of empty string
+#if integer part is zero, a '0' will be instead of empty string
 if i==0:
     ip='0'
 p=ip+fp
